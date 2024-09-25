@@ -12,3 +12,57 @@ img,
 video {
   display: block;
 }
+
+body {
+  color: #fff;
+  font-family: Heebo;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+  gap: 30px;
+}
+
+.part {
+  display: flex;
+  margin: 30 0px;
+  background: #eae2b7;
+  padding: 30 0px;
+}
+
+.bloc {
+  border: 1px solid #d62828;
+  background: #f77f00;
+  padding: 35px;
+}
+
+.part1 .bloc {
+  width: 100%;
+}
+
+.part2 {
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  .bloc {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.part3 {
+  justify-content: space-around;
+}
+
+.part4 {
+  height: 450px;
+  align-items: center;
+  gap: 30px;
+  flex-direction: row-reverse;
+}
+
+.part5 {
+  flex-wrap: wrap;
+  .bloc {
+    width: 50%;
+  }
+}
